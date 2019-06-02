@@ -6,7 +6,7 @@ Totally not related to {T,E}LAC and that s****u guy.
 
 ## Revisions
 
-### v1 - "Genesis, it does what <strike>Ninten</strike>everybody don't"
+### v1 - "Genesis - It does what <strike>Ninten</strike>other competitors don't"
 
 Initial version. Finished somewhere in July 2018.
 
