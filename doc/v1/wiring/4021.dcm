@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4021
+D 8-bit static shift register
+K shift register SR PISO
+F https://assets.nexperia.com/documents/data-sheet/HEF4021B.pdf
+$ENDCMP
+#
+#End Doc Library

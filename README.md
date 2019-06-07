@@ -29,6 +29,12 @@ Initial version. Finished somewhere in July 2018.
 
 TBA
 
+#### Wiring diagram
+
+WIP
+
+[doc/v1/wiring/out/wiring.pdf](doc/v1/wiring/out/wiring.pdf)
+
 ### v2 - "The PitchBender"
 
 In development.
