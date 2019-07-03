@@ -1,6 +1,0 @@
-[submodule "firmware"]
-	path = firmware/teensy
-	url = https://github.com/dogtopus/ALAC4P-FW.git
-[submodule "hardware/case/v1"]
-	path = hardware/case/v1
-	url = https://github.com/dogtopus/ALAC4P-Case.git
