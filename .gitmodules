@@ -1,0 +1,3 @@
+[submodule "doc/v1/wiring/ext/teensy_library"]
+	path = doc/v1/wiring/ext/teensy_library
+	url = https://github.com/XenGi/teensy_library.git

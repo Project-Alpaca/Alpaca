@@ -12,18 +12,18 @@ Initial version. Finished somewhere in July 2018.
 
 #### Hardware
 
-- Laser cuttable case: [hardware/case/v1/](hardware/case/v1/)
+- Laser cuttable case: [ALAC4P-Case](https://github.com/dogtopus/ALAC4P-Case)
 - Buttons: Generic Chinese 100mm buttons w/ Sanwa OBSA-SP-200G
 - Slider: Resistive (SoftPot)
 - PCB: Teensy LC
-  - Input: CD4021B
+  - Input: 2x CD4021B
   - Button LED: TPIC6C596
   - Auth: USB Host Shield (MAX3421E)
 - Power Source: USB + 5VDC
 
 #### Firmware
 
-[firmware/teensy/](firmware/teensy/)
+[ALAC4P-FW](https://github.com/dogtopus/ALAC4P-FW)
 
 #### BOM
 
@@ -31,10 +31,44 @@ TBA
 
 #### Wiring diagram
 
-WIP
-
 [doc/v1/wiring/out/wiring.pdf](doc/v1/wiring/out/wiring.pdf)
 
 ### v2 - "The PitchBender"
 
-In development.
+In development. Specs listed below may change at any moment.
+
+#### Hardware
+
+- Laser cuttable case: [ALAC4P-Case#v2](https://github.com/dogtopus/ALAC4P-Case/tree/v2)
+- Buttons: Generic Chinese 100mm buttons w/ Sanwa OBSA-SP-200G
+- Slider: 32-channel capacitive (LKP v1) with WS281x RGB LED
+- PCB: Teensy LC + TeensyFighter LC (perfboard option is also possible)
+  - Input: MCP23017 (on TeensyFighter LC PCB)
+  - Button LED: TPIC6C596 (over SPI)
+  - Auth: USB Host Shield (MAX3421E over SPI)
+- Power Source: USB + 9V-24V DC (At least 20W)
+
+A mod kit for Project DIVA Arcade Future Tone stock control panel is also planned.
+
+#### Firmware
+
+[ALAC4P-FW](https://github.com/dogtopus/ALAC4P-FW)
+
+#### BOM
+
+TBA
+
+#### Wiring diagram
+
+TBA
+
+#### Progress
+
+| Subproject | Status | Description |
+| ---------- | ------ | ----------- |
+| ALAC4P-Case v2 | WIP | ~35%. Working on support structure rework. TODO: LKP footprint and mount, edge-lit LED mount, new mounting brackets. |
+| LKP v1 | WIP | FW: ~70%, EE: ~1%, ME (part of ALAC4P-Case): 0%. |
+| TeensyFighter LC | WIP | ~40%. Working on schematic and component selection. TODO: PCB layout. |
+| UHS Mini to TeensyFighter Adapter | Planned | |
+| TPIC6C596 board for TeensyFighter | Planned | |
+| lib15275 | WIP | ~80%. TODO: LED pattern generator (also used in LKP) |

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name 4021)(type Legacy)(uri ${KIPRJMOD}/4021.lib)(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/ext/teensy_library/teensy.lib)(options "")(descr ""))
 )
