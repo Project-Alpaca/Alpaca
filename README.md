@@ -52,7 +52,9 @@ A mod kit for Project DIVA Arcade Future Tone stock control panel is also planne
 
 #### Firmware
 
-[ALAC4P-FW](https://github.com/dogtopus/ALAC4P-FW)
+Main: [ALAC4P-FW](https://github.com/dogtopus/ALAC4P-FW)
+
+LKP: TBA
 
 #### BOM
 
