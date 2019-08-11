@@ -1,4 +1,6 @@
-# AbsolutelyLegitArcadeController4PS4 (ALAC4P)
+# Alpaca
+
+Absolutely Legit Playstation Arcade-style Controller for All.
 
 A collection of hardware and software projects for a custom Project DIVA: Future Tone (DX) arcade-style controller.
 
@@ -12,7 +14,7 @@ Initial version. Finished somewhere in July 2018.
 
 #### Hardware
 
-- Laser cuttable case: [ALAC4P-Case](https://github.com/dogtopus/ALAC4P-Case)
+- Laser cuttable case: [Alpaca-Case](https://github.com/dogtopus/Alpaca-Case)
 - Buttons: Generic Chinese 100mm buttons w/ Sanwa OBSA-SP-200G
 - Slider: Resistive (SoftPot)
 - PCB: Teensy LC
@@ -23,7 +25,7 @@ Initial version. Finished somewhere in July 2018.
 
 #### Firmware
 
-[ALAC4P-FW](https://github.com/dogtopus/ALAC4P-FW)
+[Alpaca-FW](https://github.com/dogtopus/Alpaca-FW)
 
 #### BOM
 
@@ -39,9 +41,9 @@ In development. Specs listed below may change at any moment.
 
 #### Hardware
 
-- Laser cuttable case: [ALAC4P-Case#v2](https://github.com/dogtopus/ALAC4P-Case/tree/v2)
+- Laser cuttable case: [Alpaca-Case#v2](https://github.com/dogtopus/Alpaca-Case/tree/v2)
 - Buttons: Generic Chinese 100mm buttons w/ Sanwa OBSA-SP-200G
-- Slider: 32-channel capacitive (LKP v1) with WS281x RGB LED
+- Slider: 32-channel capacitive (codename LKP v1) with WS281x RGB LED
 - PCB: Teensy LC + TeensyFighter LC (perfboard option is also possible)
   - Input: MCP23017 (on TeensyFighter LC PCB)
   - Button LED: TPIC6C596 (over SPI)
@@ -52,7 +54,7 @@ A mod kit for Project DIVA Arcade Future Tone stock control panel is also planne
 
 #### Firmware
 
-Main: [ALAC4P-FW](https://github.com/dogtopus/ALAC4P-FW)
+Main: [Alpaca-FW](https://github.com/dogtopus/Alpaca-FW)
 
 LKP: TBA
 
@@ -68,8 +70,8 @@ TBA
 
 | Subproject | Status | Description |
 | ---------- | ------ | ----------- |
-| ALAC4P-Case v2 | WIP | ~35%. Working on support structure rework. TODO: LKP footprint and mount, edge-lit LED mount, new mounting brackets. |
-| LKP v1 | WIP | FW: ~70%, EE: ~1%, ME (part of ALAC4P-Case): 0%. |
+| Alpaca-Case v2 | WIP | ~35%. Working on support structure rework. TODO: LKP footprint and mount, edge-lit LED mount, new mounting brackets. |
+| LKP v1 | WIP | FW: ~70%, EE: 100%, ME (part of Alpaca-Case): 50%. |
 | TeensyFighter LC | WIP | ~40%. Working on schematic and component selection. TODO: PCB layout. |
 | UHS Mini to TeensyFighter Adapter | Planned | |
 | TPIC6C596 board for TeensyFighter | Planned | |
