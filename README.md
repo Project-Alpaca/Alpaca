@@ -70,9 +70,10 @@ TBA
 
 | Subproject | Status | Description |
 | ---------- | ------ | ----------- |
-| Alpaca-Case v2 | WIP | ~35%. Working on support structure rework. TODO: LKP footprint and mount, edge-lit LED mount, new mounting brackets. |
-| LKP v1 | WIP | FW: ~70%, EE: 100%, ME (part of Alpaca-Case): 50%. |
-| TeensyFighter LC | WIP | ~40%. Working on schematic and component selection. TODO: PCB layout. |
+| Alpaca-Case v2 | WIP | ~35%. Support structure: WIP, Mounting brackets: TODO, LKP PCB holder: TODO, LED guide: TODO. |
+| LKP v1 | Done | Schematic and parts: Done, PCB: Done. |
+| LKP-FW | WIP | Native: WIP, Serial: WIP. |
+| TeensyFighter LC | WIP | ~40%. Schematic and parts: WIP, PCB: TODO |
 | UHS Mini to TeensyFighter Adapter | Planned | |
 | TPIC6C596 board for TeensyFighter | Planned | |
-| lib15275 | WIP | ~80%. TODO: LED pattern generator (also used in LKP) |
+| lib15275 | WIP | ~80%. Request/response: Done, LED pattern generator: TODO |
