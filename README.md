@@ -1,10 +1,8 @@
 # Alpaca
 
-Absolutely Legit Playstation Arcade-style Controller for All.
+Absolutely Legit P\*\*\*\*\*\*\*\*\*n Arcade-style Controller for All.
 
 A collection of hardware and software projects for a custom Project DIVA: Future Tone (DX) arcade-style controller.
-
-Totally not related to {T,E}LAC and that s****u guy.
 
 ## Revisions
 
@@ -68,12 +66,21 @@ TBA
 
 #### Progress
 
-| Subproject | Status | Description |
-| ---------- | ------ | ----------- |
-| Alpaca-Case v2 | WIP | ~35%. Support structure: WIP, Mounting brackets: TODO, LKP PCB holder: TODO, LED guide: TODO. |
-| LKP v1 | Done | Schematic and parts: Done, PCB: Done. |
-| LKP-FW | WIP | Native: WIP, Serial: WIP. |
-| TeensyFighter LC | WIP | ~40%. Schematic and parts: WIP, PCB: TODO |
-| UHS Mini to TeensyFighter Adapter | Planned | |
-| TPIC6C596 board for TeensyFighter | Planned | |
-| lib15275 | WIP | ~80%. Request/response: Done, LED pattern generator: TODO |
+Crucial: Whether or not using alternatives from Alpaca v1 is feasible. Yes: Not feasible. No alternative from Alpaca v1. Component is essential for Alpaca v2. No: Feasible. Alpaca v1 components will work to some extent and their v2 counterpart can be developed later. Or the component is optional.
+
+##### Hardware
+
+| Subproject | Crucial? | Status | Description |
+| ---------- | -------- | ------ | ----------- |
+| Alpaca-Case v2 | Yes | WIP | ~35%. Support structure: WIP, Mounting brackets: TODO. LKP interop: WAIT.  |
+| LKP v1 | Yes | Done | Schematic and parts: Done, PCB: Done. |
+| LKP-Diva-Assy | Yes | WIP | LKP PCB holder: TODO, LED strip mount: TODO. |
+| TeensyFighter LC | No | WIP | ~40%. Schematic and parts: WIP, PCB: TODO |
+| UHS Mini to TeensyFighter Adapter | No | Planned | |
+| TPIC6C596 board for TeensyFighter | No | Planned | |
+
+##### Software
+
+| Subproject | Crucial? | Status | Description |
+| LKP-FW | Yes | WIP | Native: WIP, Serial: WIP. |
+| lib15275 | No | WIP | ~80%. Request/response: Done, LED pattern generator: TODO |
