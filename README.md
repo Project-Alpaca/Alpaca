@@ -12,7 +12,7 @@ Initial version. Finished somewhere in July 2018.
 
 #### Hardware
 
-- Laser cuttable case: [Alpaca-Case](https://github.com/dogtopus/Alpaca-Case)
+- Laser cuttable case: [Alpaca-Case](https://github.com/Project-Alpaca/Alpaca-Case)
 - Buttons: Generic Chinese 100mm buttons w/ Sanwa OBSA-SP-200G
 - Slider: Resistive (SoftPot)
 - PCB: Teensy LC
@@ -39,7 +39,7 @@ In development. Specs listed below may change at any moment.
 
 #### Hardware
 
-- Laser cuttable case: [Alpaca-Case#v2](https://github.com/dogtopus/Alpaca-Case/tree/v2)
+- Laser cuttable case: [Alpaca-Case#v2](https://github.com/Project-Alpaca/Alpaca-Case/tree/v2)
 - Buttons: Generic Chinese 100mm buttons w/ Sanwa OBSA-SP-200G
 - Slider: 32-channel capacitive (codename LKP v1) with WS281x RGB LED
 - PCB: Teensy LC + TeensyFighter LC (perfboard option is also possible)
