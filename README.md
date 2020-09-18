@@ -1,3 +1,5 @@
+<p align="center"><img alt="alpaca" src="./alpaca2.webp" /></p>
+
 # Alpaca
 
 Absolutely Legit P\*\*\*\*\*\*\*\*\*n Arcade-style Controller for All.
