@@ -74,17 +74,17 @@ Crucial: Whether or not using alternatives from Alpaca v1 is feasible. Yes: Not 
 
 | Subproject | Crucial? | Status | Description |
 | ---------- | -------- | ------ | ----------- |
-| Alpaca-Case v2 | Yes | WIP | ~40%. Support structure: WIP, LKP interop: WIP.  |
-| LKP v1 | Yes | Done | Schematic and parts: Done, PCB: Done. |
-| LKP-Diva-Assy | Yes | WIP | ~95%. LKP PCB holder: Done (Mostly), LED strip mount: Done. |
-| TeensyFighter LC | No | WIP | ~40%. Schematic and parts: WIP, PCB: TODO |
-| UHS Mini to TeensyFighter Adapter | No | Planned | |
-| TPIC6C596 board for TeensyFighter | No | Planned | |
+| Alpaca-Case v2 | ⭕ Yes | 🚧 WIP | ~40%. Support structure: WIP, LKP interop: WIP.  |
+| LKP v1 | ⭕ Yes | ✅ Done | Schematic and parts: Done, PCB: Done. |
+| LKP-Diva-Assy | ⭕ Yes | ✅ Done | LKP PCB holder: Done, LED strip mount: Done. |
+| TeensyFighter LC | ❌ No | 🚧 WIP | ~40%. Schematic and parts: WIP, PCB: TODO |
+| UHS Mini to TeensyFighter Adapter | ❌ No | 📅 Planned | |
+| TPIC6C596 board for TeensyFighter | ❌ No | 📅 Planned | |
 
 ##### Software
 
 | Subproject | Crucial? | Status | Description |
 | ---------- | -------- | ------ | ----------- |
-| Alpaca-FW | Yes | WIP | LKP interop: WAIT, lib15275 interop: WAIT. |
-| LKP-FW | Yes | WIP | Native: Done (First PoC), 15275 Serial: TODO (Low priority). |
-| lib15275 | No | WIP | ~80%. Request/response: Done, LED pattern generator: TODO |
+| Alpaca-FW | ⭕ Yes | 🚧 WIP | LKP interop: WAIT, lib15275 interop: WAIT. |
+| LKP-FW | ⭕ Yes | 🚧 WIP | Native: Done (First PoC), 15275 Serial: TODO (Low priority). |
+| lib15275 | ❌ No | 🚧 WIP | ~80%. Request/response: Done, LED pattern generator: TODO |
