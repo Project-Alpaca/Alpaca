@@ -14,7 +14,7 @@ Initial version. Finished somewhere in July 2018.
 
 #### Hardware
 
-- Laser cuttable case: [Alpaca-Case](https://github.com/Project-Alpaca/Alpaca-Case)
+- Laser cuttable case: [Alpaca-Case#v1](https://github.com/Project-Alpaca/Alpaca-Case/tree/v1)
 - Buttons: Generic Chinese 100mm buttons w/ Sanwa OBSA-SP-200G
 - Slider: Resistive (SoftPot)
 - PCB: Teensy LC
@@ -41,7 +41,7 @@ In development. Specs listed below may change at any moment.
 
 #### Hardware
 
-- Laser cuttable case: [Alpaca-Case#v2](https://github.com/Project-Alpaca/Alpaca-Case/tree/v2)
+- Laser cuttable case: [Alpaca-Case](https://github.com/Project-Alpaca/Alpaca-Case)
 - Buttons: Generic Chinese 100mm buttons w/ Sanwa OBSA-SP-200G
 - Slider: 32-channel capacitive (codename LKP v1) with WS281x RGB LED
 - PCB: Teensy LC + TeensyFighter LC (perfboard option is also possible)
@@ -74,7 +74,7 @@ Crucial: Whether or not using alternatives from Alpaca v1 is feasible. Yes: Not 
 
 | Subproject | Crucial? | Status | Description |
 | ---------- | -------- | ------ | ----------- |
-| Alpaca-Case v2 | ⭕ Yes | 🚧 WIP | ~40%. Support structure: WIP, LKP interop: WIP.  |
+| Alpaca-Case v2 | ⭕ Yes | 🚧 WIP | ~80%. Support structure: WIP, LKP interop: WIP.  |
 | LKP v1 | ⭕ Yes | ✅ Done | Schematic and parts: Done, PCB: Done. |
 | LKP-Diva-Assy | ⭕ Yes | ✅ Done | LKP PCB holder: Done, LED strip mount: Done. |
 | TeensyFighter LC | ❌ No | 🚧 WIP | ~40%. Schematic and parts: WIP, PCB: TODO |
