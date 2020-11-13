@@ -44,17 +44,21 @@ In development. Specs listed below may change at any moment.
 - Laser cuttable case: [Alpaca-Case](https://github.com/Project-Alpaca/Alpaca-Case)
 - Buttons: Generic Chinese 100mm buttons w/ Sanwa OBSA-SP-200G
 - Slider: 32-channel capacitive (codename LKP v1) with WS281x RGB LED
-- PCB: Teensy LC + TeensyFighter LC (perfboard option is also possible)
-  - Input: MCP23017 (on TeensyFighter LC PCB)
+- PCB: Teensy LC ~~+ TeensyFighter LC~~ (perfboard option is also possible)
+  - Input: ~~MCP23017 (on TeensyFighter LC PCB)~~ 2x CD4021B
   - Button LED: TPIC6C596 (over SPI)
   - Auth: USB Host Shield (MAX3421E over SPI)
+- Alternative PCB: Alpaca-NGIO
+  - Input: On-chip GPIO
+  - LED/peripheral power management: External MCP23008+ULN2803A/MCP23017+2xULN2803A over I2C/SPI (details TBA)
+  - Auth: On-board USB
 - Power Source: USB + 9V-24V DC (At least 20W)
 
 A mod kit for Project DIVA Arcade Future Tone stock control panel is also planned.
 
 #### Firmware
 
-Main: [Alpaca-FW](https://github.com/dogtopus/Alpaca-FW)
+Main: [Alpaca-FW](https://github.com/dogtopus/Alpaca-FW) for v1 electronics, passinglink (details TBA) for Alpaca-NGIO.
 
 LKP: TBA
 
@@ -77,7 +81,8 @@ Crucial: Whether or not using alternatives from Alpaca v1 is feasible. Yes: Not 
 | Alpaca-Case v2 | ⭕ Yes | 🚧 WIP | ~80%. Support structure: WIP, LKP interop: WIP.  |
 | LKP v1 | ⭕ Yes | ✅ Done | Schematic and parts: Done, PCB: Done. |
 | LKP-Diva-Assy | ⭕ Yes | ✅ Done | LKP PCB holder: Done, LED strip mount: Done. |
-| TeensyFighter LC | ❌ No | 🚧 WIP | ~40%. Schematic and parts: WIP, PCB: TODO |
+| ~~TeensyFighter LC~~ | ❌ No | ❌ Cancelled | ~40%. Schematic and parts: WIP, PCB: TODO |
+| Alpaca-NGIO | ❌ No | 📅 Planned | |
 | UHS Mini to TeensyFighter Adapter | ❌ No | 📅 Planned | |
 | TPIC6C596 board for TeensyFighter | ❌ No | 📅 Planned | |
 
