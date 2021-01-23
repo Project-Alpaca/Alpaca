@@ -25,7 +25,7 @@ Initial version. Finished somewhere in July 2018.
 
 #### Firmware
 
-[Alpaca-FW](https://github.com/dogtopus/Alpaca-FW)
+[Alpaca-FW](https://github.com/Project-Alpaca/Alpaca-FW)
 
 #### BOM
 
@@ -43,7 +43,7 @@ In development. Specs listed below may change at any moment.
 
 - Laser cuttable case: [Alpaca-Case](https://github.com/Project-Alpaca/Alpaca-Case)
 - Buttons: Generic Chinese 100mm buttons w/ Sanwa OBSA-SP-200G
-- Slider: 32-channel capacitive (codename LKP v1) with WS281x RGB LED
+- Slider: [LKP](https://github.com/Project-Alpaca/LKP) with WS281x RGB LED
 - PCB: Teensy LC ~~+ TeensyFighter LC~~ (perfboard option is also possible)
   - Input: ~~MCP23017 (on TeensyFighter LC PCB)~~ 2x CD4021B
   - Button LED: TPIC6C596 (over SPI)
@@ -58,7 +58,7 @@ A mod kit for Project DIVA Arcade Future Tone stock control panel is also planne
 
 #### Firmware
 
-Main: [Alpaca-FW](https://github.com/dogtopus/Alpaca-FW) for v1 electronics, passinglink (details TBA) for Alpaca-NGIO.
+Main: [Alpaca-FW](https://github.com/Project-Alpaca/Alpaca-FW) for v1 electronics, passinglink (details TBA) for Alpaca-NGIO.
 
 LKP: TBA
 
@@ -72,7 +72,9 @@ TBA
 
 #### Progress
 
-Crucial: Whether or not using alternatives from Alpaca v1 is feasible. Yes: Not feasible. No alternative from Alpaca v1. Component is essential for Alpaca v2. No: Feasible. Alpaca v1 components will work to some extent and their v2 counterpart can be developed later. Or the component is optional.
+Crucial: Whether or not using alternatives from Alpaca v1 is feasible.
+- Yes: No alternative from Alpaca v1. Component is essential for Alpaca v2.
+- No: Alpaca v1 components will work to some extent and their v2 counterpart can be developed later. Or the component is optional.
 
 ##### Hardware
 
