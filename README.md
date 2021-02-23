@@ -80,7 +80,7 @@ Crucial: Whether or not using alternatives from Alpaca v1 is feasible.
 
 | Subproject | Crucial? | Status | Description |
 | ---------- | -------- | ------ | ----------- |
-| Alpaca-Case v2 | ⭕ Yes | 🚧 WIP | ~80%. Support structure: WIP, LKP interop: WIP.  |
+| Alpaca-Case v2 | ⭕ Yes | 🚧 WIP | ~95%. Support structure: Done, LKP interop: Done.  |
 | LKP v1 | ⭕ Yes | ✅ Done | Schematic and parts: Done, PCB: Done. |
 | LKP-Diva-Assy | ⭕ Yes | ✅ Done | LKP PCB holder: Done, LED strip mount: Done. |
 | ~~TeensyFighter LC~~ | ❌ No | ❌ Cancelled | ~40%. Schematic and parts: WIP, PCB: TODO |
