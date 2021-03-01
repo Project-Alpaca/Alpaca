@@ -43,7 +43,7 @@ In development. Specs listed below may change at any moment.
 
 - Laser cuttable case: [Alpaca-Case](https://github.com/Project-Alpaca/Alpaca-Case)
 - Buttons: Generic Chinese 100mm buttons w/ Sanwa OBSA-SP-200G
-- Slider: [LKP](https://github.com/Project-Alpaca/LKP) with WS281x RGB LED
+- Slider: [LKP](https://github.com/Project-Alpaca/LKP) with WS2813 RGB LED strip (144/m, 72 LEDs total)
 - PCB: Teensy LC ~~+ TeensyFighter LC~~ (perfboard option is also possible)
   - Input: ~~MCP23017 (on TeensyFighter LC PCB)~~ 2x CD4021B
   - Button LED: TPIC6C596 (over SPI)
