@@ -90,5 +90,5 @@ Crucial: Whether or not using alternatives from Alpaca v1 is feasible.
 | Subproject | Crucial? | Status | Description |
 | ---------- | -------- | ------ | ----------- |
 | Alpaca-FW | ⭕ Yes | 🚧 WIP | LKP interop: WAIT, lib15275 interop: WAIT. |
-| LKP-FW | ⭕ Yes | 🚧 WIP | Native: Done (First PoC), 15275 Serial: TODO (Low priority). |
+| LKP-FW | ⭕ Yes | ✅ Done | Native: Done (First PoC), 15275 Serial: Done. |
 | lib15275 | ❌ No | 🚧 WIP | ~80%. Request/response: Done, LED pattern generator: TODO |
