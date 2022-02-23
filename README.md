@@ -50,8 +50,12 @@ In development. Specs listed below may change at any moment.
   - Auth: USB Host Shield (MAX3421E over SPI)
 - Alternative PCB: Alpaca-NGIO
   - Input: On-chip GPIO
-  - LED/peripheral power management: External MCP23008+ULN2803A/MCP23017+2xULN2803A over I2C/SPI (details TBA)
-  - Auth: On-board USB
+  - Button LED: External MCP23008+ULN2803A/MCP23017 over I2C. (details TBA)
+  - Auth: On-board USB or native
+- Alternative PCB: Alpaca-OwO
+  - Input: On-chip GPIO
+  - Button LED: External MCP23008+ULN2803A/MCP23017 over I2C. (details TBA)
+  - Auth: Native
 - Power Source: USB + 9V-24V DC (At least 20W)
 
 A mod kit for Project DIVA Arcade Future Tone stock control panel is also planned.
@@ -60,7 +64,7 @@ A mod kit for Project DIVA Arcade Future Tone stock control panel is also planne
 
 Main: [Alpaca-FW](https://github.com/Project-Alpaca/Alpaca-FW) for v1 electronics, passinglink (details TBA) for Alpaca-NGIO.
 
-LKP: TBA
+LKP: [LKP-FW](https://github.com/Project-Alpaca/LKP-FW) (Native variant, WIP.)
 
 #### BOM
 
