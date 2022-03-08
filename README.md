@@ -50,11 +50,11 @@ In development. Specs listed below may change at any moment.
   - Auth: USB Host Shield (MAX3421E over SPI)
 - Alternative PCB: Alpaca-NGIO
   - Input: On-chip GPIO
-  - Button LED: External MCP23008+ULN2803A/MCP23017 over I2C. (details TBA)
+  - Button LED: External MCP23008+ULN2803A over I2C. (details TBA)
   - Auth: On-board USB or native
-- Alternative PCB: Alpaca-OwO
+- Alternative PCB: [Alpaca-OwO](https://github.com/Project-Alpaca/Alpaca-OwO/tree/v1.0)
   - Input: On-chip GPIO
-  - Button LED: External MCP23008+ULN2803A/MCP23017 over I2C. (details TBA)
+  - Button LED: External MCP23008+ULN2803A over I2C. (details TBA)
   - Auth: Native
 - Power Source: USB + 9V-24V DC (At least 20W)
 
