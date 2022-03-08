@@ -87,12 +87,13 @@ Crucial: Whether or not using alternatives from Alpaca v1 is feasible.
 | Alpaca-Case v2 | ⭕ Yes | ✅ Done | Prerelease. |
 | LKP v1 | ⭕ Yes | ✅ Done | Schematic and parts: Done, PCB: Done. |
 | LKP-Diva-Assy | ⭕ Yes | ✅ Done | LKP PCB holder: Done, LED strip mount: Done. |
-| Alpaca-NGIO | ❌ No | 📅 Planned | |
+| ~~Alpaca-NGIO~~ | ❌ No | ❌ Delayed indefinitely | |
+| Alpaca-OwO | ❌ No | 🚧 WIP | Pending testing |
 
 ##### Software
 
 | Subproject | Crucial? | Status | Description |
 | ---------- | -------- | ------ | ----------- |
-| Alpaca-FW | ⭕ Yes | 🚧 WIP | LKP interop: WAIT, lib15275 interop: WAIT. |
+| Alpaca-FW | ⭕ Yes | 🚧 WIP | RP2040 support: 0%, LKP interop: 0%, lib15275 interop: WAIT. |
 | LKP-FW | ⭕ Yes | ✅ Done | Native: Done (First PoC), 15275 Serial: Done. |
 | lib15275 | ❌ No | 🚧 WIP | ~80%. Request/response: Done, LED pattern generator: TODO |
